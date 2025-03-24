@@ -1,0 +1,9 @@
+version: 2
+sources:
+- name: main
+  tables:
+  - name: nyc_threeoneone_requests
+    meta:
+      dagster:
+        asset_key:
+        - nyc_threeoneone_requests
